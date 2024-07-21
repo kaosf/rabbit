@@ -40,6 +40,7 @@ export type NotificationFilterOptions = {
 // export const buildFilter = (options: BuildOptions) => {};
 
 export const ColumnWidthSchema = z.union([
+  z.literal('superWidest1000'),
   z.literal('widest'),
   z.literal('wide'),
   z.literal('medium'),

@@ -45,6 +45,7 @@ export default {
     },
     config: {
       columnWidth: 'Column width',
+      superWidest1000: 'Super Widest 1000',
       widest: 'Widest',
       wide: 'Wide',
       medium: 'Medium',

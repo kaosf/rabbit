@@ -48,6 +48,7 @@ const Column: Component<ColumnProps> = (props) => {
         ref={columnDivRef}
         class="flex w-[80vw] shrink-0 snap-center snap-always flex-col border-r border-border sm:snap-align-none"
         classList={{
+          'sm:w-[1000px]': width() === 'superWidest1000',
           'sm:w-[500px]': width() === 'widest',
           'sm:w-[360px]': width() === 'wide',
           'sm:w-[320px]': width() === 'medium',
