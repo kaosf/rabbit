@@ -53,6 +53,7 @@ export default {
     },
     config: {
       columnWidth: 'Column width',
+      superWidest: 'Super Widest',
       widest: 'Widest',
       wide: 'Wide',
       medium: 'Medium',

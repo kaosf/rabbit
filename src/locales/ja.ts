@@ -51,6 +51,7 @@ export default {
     },
     config: {
       columnWidth: 'カラム幅',
+      superWidest: '超特大',
       widest: '特大',
       wide: '大',
       medium: '中',

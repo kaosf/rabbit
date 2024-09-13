@@ -50,7 +50,7 @@ const ColumnSettings = <T extends ColumnType>(props: ColumnSettingsProps<T>): JS
     <div class="flex flex-col border-t border-border">
       <ColumnSettingsSection title={i18n.t('column.config.columnWidth')}>
         <div class="scrollbar flex h-9 gap-2 overflow-x-auto">
-          <For each={['widest', 'wide', 'medium', 'narrow'] as const}>
+          <For each={['superWidest', 'widest', 'wide', 'medium', 'narrow'] as const}>
             {(width) => (
               <button
                 class="rounded-md border px-4 text-fg-secondary"

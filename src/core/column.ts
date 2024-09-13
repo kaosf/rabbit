@@ -36,6 +36,7 @@ export type GenericFilterOptions = {
 // export const buildFilter = (options: BuildOptions) => {};
 
 export const ColumnWidthSchema = z.union([
+  z.literal('superWidest'),
   z.literal('widest'),
   z.literal('wide'),
   z.literal('medium'),
